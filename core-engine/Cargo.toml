@@ -1,0 +1,54 @@
+[package]
+name = "safe-erase-core"
+version = "0.1.0"
+edition = "2021"
+authors = ["SafeErase Team"]
+description = "Core engine for secure data wiping operations"
+license = "MIT"
+repository = "https://github.com/safeerase/SafeErase"
+
+[dependencies]
+# Workspace dependencies
+tokio = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+anyhow = { workspace = true }
+thiserror = { workspace = true }
+tracing = { workspace = true }
+tracing-subscriber = { workspace = true }
+openssl = { workspace = true }
+ring = { workspace = true }
+sha2 = { workspace = true }
+hex = { workspace = true }
+chrono = { workspace = true }
+uuid = { workspace = true }
+
+# Platform-specific dependencies
+[target.'cfg(unix)'.dependencies]
+libc = { workspace = true }
+nix = { workspace = true }
+
+[target.'cfg(windows)'.dependencies]
+winapi = { workspace = true }
+
+# Additional core dependencies
+byteorder = "1.5"
+rand = "0.8"
+crossbeam-channel = "0.5"
+num_cpus = "1.16"
+tokio-util = "0.7"
+
+[dev-dependencies]
+mockall = { workspace = true }
+tempfile = { workspace = true }
+criterion = "0.5"
+
+[[bench]]
+name = "wipe_performance"
+harness = false
+
+[features]
+default = ["secure-erase", "hpa-dco"]
+secure-erase = []
+hpa-dco = []
+debug-mode = []

@@ -1,0 +1,85 @@
+MIT License
+
+Copyright (c) 2024 SafeErase Project
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+ADDITIONAL TERMS AND CONDITIONS FOR SAFEERASE
+
+1. DATA DESTRUCTION DISCLAIMER
+   This software is designed to permanently destroy data. The authors and 
+   contributors are not responsible for any data loss resulting from the use 
+   of this software. Users are solely responsible for ensuring they have 
+   appropriate backups and are wiping the correct devices.
+
+2. COMPLIANCE RESPONSIBILITY
+   While this software implements industry-standard wiping algorithms and 
+   generates compliance certificates, users are responsible for ensuring 
+   compliance with applicable laws, regulations, and standards in their 
+   jurisdiction. The authors make no warranty regarding legal compliance.
+
+3. SECURITY LIMITATIONS
+   No data destruction method can guarantee 100% unrecoverability of data. 
+   The effectiveness of wiping depends on various factors including storage 
+   technology, device condition, and implementation. Users should evaluate 
+   the appropriateness of wiping methods for their specific security 
+   requirements.
+
+4. PROFESSIONAL USE
+   This software is intended for professional use by qualified personnel. 
+   Users should have appropriate knowledge of storage technologies and data 
+   destruction procedures. Improper use may result in incomplete data 
+   destruction or damage to equipment.
+
+5. THIRD-PARTY COMPONENTS
+   This software may include third-party components with their own licenses. 
+   Users must comply with all applicable third-party licenses. See the 
+   documentation for a complete list of third-party components and their 
+   licenses.
+
+6. EXPORT RESTRICTIONS
+   This software may be subject to export control laws and regulations. 
+   Users are responsible for compliance with all applicable export control 
+   laws and regulations in their jurisdiction.
+
+7. NO WARRANTY FOR SPECIFIC PURPOSES
+   While this software is designed for secure data destruction, it is 
+   provided without warranty for any specific purpose. Users should test 
+   and validate the software for their specific use cases and requirements.
+
+8. LIMITATION OF LIABILITY
+   In no event shall the authors or contributors be liable for any special, 
+   incidental, indirect, or consequential damages whatsoever (including, 
+   without limitation, damages for loss of business profits, business 
+   interruption, loss of business information, or any other pecuniary loss) 
+   arising out of the use of or inability to use this software, even if the 
+   authors have been advised of the possibility of such damages.
+
+9. INDEMNIFICATION
+   Users agree to indemnify and hold harmless the authors and contributors 
+   from any claims, damages, or expenses arising from their use of this 
+   software, including but not limited to claims related to data loss, 
+   regulatory compliance, or equipment damage.
+
+10. MODIFICATION OF TERMS
+    These additional terms may be modified by the project maintainers. 
+    Continued use of the software constitutes acceptance of any modifications 
+    to these terms.
+
+For questions regarding licensing, please contact: legal@safeerase.com

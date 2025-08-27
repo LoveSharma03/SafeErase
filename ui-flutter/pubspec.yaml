@@ -1,0 +1,83 @@
+name: safe_erase_ui
+description: Cross-platform UI for SafeErase secure data wiping tool
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # UI and Navigation
+  cupertino_icons: ^1.0.6
+  material_design_icons_flutter: ^7.0.7296
+  go_router: ^12.1.3
+  
+  # State Management
+  flutter_riverpod: ^2.4.9
+  riverpod_annotation: ^2.3.3
+  
+  # System Integration
+  ffi: ^2.1.0
+  path_provider: ^2.1.1
+  permission_handler: ^11.1.0
+  
+  # Data and Serialization
+  json_annotation: ^4.8.1
+  freezed_annotation: ^2.4.1
+  
+  # UI Components
+  flutter_animate: ^4.3.0
+  gap: ^3.0.1
+  
+  # File Operations
+  file_picker: ^6.1.1
+  open_file: ^3.3.2
+  
+  # Networking (for certificate verification)
+  dio: ^5.4.0
+  
+  # Utilities
+  intl: ^0.19.0
+  package_info_plus: ^4.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  # Code Generation
+  build_runner: ^2.4.7
+  json_serializable: ^6.7.1
+  freezed: ^2.4.6
+  riverpod_generator: ^2.3.9
+  
+  # Linting
+  flutter_lints: ^3.0.1
+  
+  # Testing
+  mockito: ^5.4.4
+  integration_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/certificates/
+  
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Bold.ttf
+          weight: 700
+
+flutter_intl:
+  enabled: true
+  main_locale: en
+  arb_dir: lib/l10n
+  output_dir: lib/generated
